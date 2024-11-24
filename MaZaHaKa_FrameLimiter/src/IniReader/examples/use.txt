@@ -1,0 +1,3 @@
+Config* gpConfig = nullptr;
+	gpConfig = new Config("MemesINI.ini");
+	if (!gpConfig->IniParse()) { std::cout << "!Ini parsed! Error!!" << "\n"; return; }

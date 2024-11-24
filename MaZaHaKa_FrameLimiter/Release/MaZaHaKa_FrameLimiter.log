@@ -1,0 +1,8 @@
+﻿  Main.cpp
+D:\1програмирование\__PROJECTS\VISUALSTUDIOPROJ\MaZaHaKa_FrameLimiter\MaZaHaKa_FrameLimiter\src\Timer.h(28,76): warning C4244: return: преобразование "float" в "uint32_t", возможна потеря данных
+  Создание кода
+  3 of 386 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  MaZaHaKa_FrameLimiter.vcxproj -> D:\1програмирование\__PROJECTS\VISUALSTUDIOPROJ\MaZaHaKa_FrameLimiter\Release\FrameLimiter.asi
