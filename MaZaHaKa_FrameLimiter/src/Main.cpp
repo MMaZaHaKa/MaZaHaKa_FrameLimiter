@@ -30,9 +30,9 @@ bool __fastcall HK_ApplicationTick(void* ecx, void* edx)
 #ifdef USE_KEY_SWITCH
 	if (gpConfig->m_bNeedKeyBind)
 	{
-		bool nIsKeyPressed = (GetAsyncKeyState(gpConfig->m_iLockKeyBind) & 0x8000);
-		if (nIsKeyPressed && !key_hold) { key_hold = true; gpConfig->m_bNeedLock = !gpConfig->m_bNeedLock; }
-		else if (!nIsKeyPressed) { key_hold = false; }
+		bool bIsKeyPressed = (GetAsyncKeyState(gpConfig->m_iLockKeyBind) & 0x8000);
+		if (bIsKeyPressed && !key_hold) { key_hold = true; gpConfig->m_bNeedLock = !gpConfig->m_bNeedLock; }
+		else if (!bIsKeyPressed) { key_hold = false; }
 	}
 #endif
 	return res;
